@@ -12,7 +12,7 @@ def genString(stringLength):
     letters = string.ascii_letters + string.digits
     return ''.join(random.choice(letters) for i in range(stringLength))
 
-url = 'https://api.cloudflareclient.com/v0a745/reg'
+url = 'https://api.cloudflareclient.com/v0a848/reg'
 
 def run():
     install_id = genString(11)
